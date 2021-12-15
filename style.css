@@ -3,18 +3,18 @@
 }
 
 #color-palette {
-    margin-left: 42%;
+  margin-left: 43.5%;
 }
 .color {
   border: 1px solid black;
-  height: 50px;
-  width: 50px;
   display: inline-block;
+  height: 40px;
+  width: 40px;
 }
 
-.black {
+.black,
+.selected {
   background-color: black;
-
 }
 
 .yellow {
@@ -27,4 +27,15 @@
 
 .blue {
   background-color: blue;
+}
 
+#pixel-board {
+  margin-left: 41.5%;
+}
+.pixel {
+  background-color: white;
+  border: 1px solid black;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+}
