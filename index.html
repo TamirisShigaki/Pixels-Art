@@ -15,56 +15,19 @@
     <main>
       <section id="color-palette">
         <div class="color black selected"></div>
-        <div class="color yellow"></div>
-        <div class="color red"></div>
-        <div class="color blue"></div>
+        <div class="color cor1"></div>
+        <div class="color cor2"></div>
+        <div class="color cor3"></div>
       </section>
 
       <section>
+        <input id="board-size" type="number" min="5" max="50" />
+        <button id="generate-board">VQV</button>
+        <br />
         <button id="clear-board">Limpar</button>
       </section>
 
-      <section id="pixel-board">
-        <div>
-          <div class="pixel"></div>
-          <div class="pixel"></div>
-          <div class="pixel"></div>
-          <div class="pixel"></div>
-          <div class="pixel"></div>
-        </div>
-
-        <div>
-          <div class="pixel"></div>
-          <div class="pixel"></div>
-          <div class="pixel"></div>
-          <div class="pixel"></div>
-          <div class="pixel"></div>
-        </div>
-
-        <div>
-          <div class="pixel"></div>
-          <div class="pixel"></div>
-          <div class="pixel"></div>
-          <div class="pixel"></div>
-          <div class="pixel"></div>
-        </div>
-
-        <div>
-          <div class="pixel"></div>
-          <div class="pixel"></div>
-          <div class="pixel"></div>
-          <div class="pixel"></div>
-          <div class="pixel"></div>
-        </div>
-
-        <div>
-          <div class="pixel"></div>
-          <div class="pixel"></div>
-          <div class="pixel"></div>
-          <div class="pixel"></div>
-          <div class="pixel"></div>
-        </div>
-      </section>
+      <section id="pixel-board"></section>
     </main>
     <script src="script.js"></script>
   </body>
