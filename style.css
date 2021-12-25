@@ -1,20 +1,11 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   text-align: center;
-  margin: 0 20px;
 }
 
-header {
-  margin: 15px;
-}
 #color-palette {
   margin-bottom: 15px;
 }
+
 .color {
   border: 1px solid black;
   display: inline-block;
@@ -36,15 +27,11 @@ header {
   margin-top: 20px;
   display: inline-block;
 }
+
 .pixel {
   background-color: white;
   border: 1px solid black;
   display: inline-block;
   height: 40px;
   width: 40px;
-}
-
-.tamanho-caixa {
-  margin: 0;
-  padding: 0;
 }
